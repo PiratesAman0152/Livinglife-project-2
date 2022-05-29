@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.body{
+    background-color: #482a2a;
+}
+
+.wrapper{
+    margin: 0px 100px;
+    /*border: solid 5px;*/
+}
+.header{
+    background-color: #fff;
+}
+.header > h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 70px;
+    padding-left: 50px;
+    padding-top: 10px;
+    color: green;
+    text-shadow: 1px 1px rgb(219, 27, 184);
+}
+.main-nav{
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+
+.main-nav > ul{
+    background-color: #292929;
+    list-style:none;
+    padding-left: 30px;
+}
+
+.main-nav > ul > li{
+    display: inline-block;
+    padding: 19px;
+}
+
+.main-nav > ul > li > a{
+    font-family:cursive;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.main-nav > ul > li:hover{
+    background-color: black;
+}
+
+.main-nav > ul > li a:hover{
+    color: greenyellow;
+}
+
+.content{
+    background-color: white;
+    min-height: 530px;
+    font-size: 18px;
+    padding: 20px;
+    width: 80%;
+    float:left;
+}
+
+.content{
+    display: block;
+    width: 80%;
+}
+
+.right-sidebar{
+    background-color: white;
+    min-height: 530px;
+    width: 20%;
+    float: right;
+    border-left: #B3B3B3;
+}
+.right-sidebar > h1{
+    font-family: cursive;
+    background-color: #1E92ED;
+    text-align: center;
+    color:#FFF;
+    padding: 5px;
+    margin-top: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.conatiner::after{
+    content: " ";
+    display: block;
+    clear: both;
+    zoom: 1;
+}
+
+.content > img{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 30%;
+    padding-bottom: 10px;
+}
+
+.right-sidebar > p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.footer{
+background-color: #292929;
+color: #FFF;
+padding:10px;
+text-align: center;
+}
+
+.footer > a{
+    color:#FFF;
+    text-decoration: none;
+}
+
+.footer >a:hover{
+    color:greenyellow;
+}
